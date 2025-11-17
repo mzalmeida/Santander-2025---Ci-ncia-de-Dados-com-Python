@@ -1,7 +1,7 @@
 # 📊 Ciência de Dados com Python - Bootcamp Santander 2025
 
 ::: {align="center"}
-`<img src="07 - Images/logo.png" width="200px" alt="Logo do Bootcamp"/>`{=html}
+<img src="07%20-%20Images/logo.png" width="200px" alt="Logo do Bootcamp"/>
 :::
 
 ## 🚀 Sobre o Bootcamp
