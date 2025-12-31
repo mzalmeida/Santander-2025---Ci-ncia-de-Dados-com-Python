@@ -153,6 +153,9 @@ https://github.com/pamelaborges/dio-bd-relacional
 https://mariadb.com/kb/en/joins/
 https://github.com/pamelaborges/dio-bd-relacional
 https://mariadb.com/kb/en/aggregate-functions/
+https://github.com/pamelaborges/dio-bd-relacional
+https://mariadb.com/kb/en/alter-table/#add-index
+
 
 
 
@@ -332,6 +335,35 @@ max = calcula o total de linhas
 timestampdiff = calcula diferenca de uma data entre outra data, primeiro parametro no caso acima
 é o ano que queremos ver a diferença, o proximo paremtro é a coluna que serve diferenca no caso data_nascimento, e o ultimo é a data quer quer comparar
 usar o current_data traz a data atual do banco
+
+
+############################ Análise do Plano de Execução
+Ela nos permite examinar as operações realizadas, as tabelas acessadas, 
+os índices utilizados e outras informações importantes para identificar possíveis melhorias 
+de desempenho.
+
+EXPLAIN
+	SELECT * 
+	FROM {{TABELA}}
+    
+    select_type:"SIMPLE", "SUBQUERY" , "JOIN" 
+table.
+type: "ALL" , "INDEX" entre outros
+possible_keys: Os índices possíveis que podem ser utilizados na operação.
+key: O índice utilizado na operação, se aplicável.
+key_len: O comprimento do índice utilizado.
+ref: As colunas ou constantes usadas para acessar o índice.
+rows
+
+Esses recursos são fundamentais para melhorar o desempenho das consultas 
+e otimizar a recuperação de informações em bancos de dados.
+
+CREATE INDEX {{nome_index}}
+ ON {{tabela}} ({{coluna1, coluna2…}});
+
+
+
+
 
 
 
