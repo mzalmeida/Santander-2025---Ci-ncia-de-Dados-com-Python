@@ -1,0 +1,25 @@
+[acao]
+create a script to create a table in oraclesql
+
+[context]
+- the firts table is a table to save a curriculo 
+- the second table is a table to save collections set
+
+coonect to tables with foreign key
+
+[informacao]
+the firts table: tbl_cco_user
+- id
+- nome
+- sobre mim
+- experiencia
+- habilidades
+- idiomas
+- contato
+- formação
+- idcollectioncco
+
+the second table: tbl_ccos
+- id
+- collectionSetName
+- totalCcoColletion
