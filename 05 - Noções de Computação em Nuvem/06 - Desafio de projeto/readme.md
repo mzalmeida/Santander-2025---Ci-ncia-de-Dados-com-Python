@@ -35,4 +35,4 @@ Assinatura do Responsável pelo Projeto:
 Mateus Almeida  
 
 ## Link do repositório
-[Insira aqui o link do Git]
+[https://github.com/mzalmeida/Santander-2025---Ci-ncia-de-Dados-com-Python/blob/main/05%20-%20No%C3%A7%C3%B5es%20de%20Computa%C3%A7%C3%A3o%20em%20Nuvem/06%20-%20Desafio%20de%20projeto/readme.md]
